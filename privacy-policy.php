@@ -147,6 +147,9 @@ session_start();
         }
     </style>
 </head>
+<header>
+<?php include 'header.php'; ?>
+</header>
 <body>
     <div class="container">
         <h1>Política de Privacidad</h1>
@@ -271,7 +274,7 @@ session_start();
             </ul>
 
             <div class="highlight-box">
-                <p>Para ejercer estos derechos, contacte con nosotros a través de [correo electrónico].</p>
+                <p>Para ejercer estos derechos, contacte con nosotros a través de info@cellcomweb.com.ar.</p>
             </div>
         </section>
 
@@ -328,9 +331,12 @@ session_start();
             <h2>10. Contacto</h2>
             <p>Para cualquier consulta sobre esta política:</p>
             <ul>
-                <li>Email: privacy@ejemplo.com</li>
-                <li>Teléfono: +XX XXX XXX XXX</li>
-                <li>Dirección: [Dirección física]</li>
+                <li>Email: info@cellcomweb.com.ar</li>
+                <li>Teléfono: +543482549555</li>
+                <li>Dirección: Calle 9 Nro 539</li>
+                <li>Ciudad: Avellaneda</li>
+                <li>Provincia: Santa Fe</li>
+                <li>Pais: Argentina</li>
             </ul>
         </section>
     </div>

@@ -148,6 +148,9 @@ session_start();
         }
     </style>
 </head>
+<header>
+<?php include 'header.php'; ?>
+</header>
 <body>
     <div class="container">
         <h1>Términos de Uso</h1>
@@ -389,9 +392,12 @@ session_start();
             <h3>10.4 Contacto</h3>
             <p>Para consultas sobre estos términos:</p>
             <ul>
-                <li>Email: legal@ejemplo.com</li>
-                <li>Teléfono: +XX XXX XXX XXX</li>
-                <li>Dirección: [Dirección física]</li>
+                <li>Email: info@cellcomweb.com.ar</li>
+                <li>Teléfono: +543482549555</li>
+                <li>Dirección: Calle 9 Nro 539</li>
+                <li>Ciudad: Avellaneda</li>
+                <li>Provincia: Santa Fe</li>
+                <li>Pais: Argentina</li>
             </ul>
         </section>
     </div>

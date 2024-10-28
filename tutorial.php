@@ -245,6 +245,9 @@ session_start();
         }
     </style>
 </head>
+<header>
+<?php include 'header.php'; ?>
+</header>
 <body>
     <div class="sidebar">
         <input type="text" class="search-box" placeholder="Buscar en el tutorial..." id="searchBox">
@@ -311,7 +314,7 @@ session_start();
                     <h3>Clonar Repositorio</h3>
                     <div class="code-block">
                         <button class="copy-button">Copiar</button>
-                        <pre><code>git clone https://github.com/yourusername/hls-recorder.git
+                        <pre><code>git clone https://github.com/sabalero23/hls-recorder.git
 cd hls-recorder</code></pre>
                     </div>
                 </li>
@@ -720,5 +723,6 @@ opcache.max_accelerated_files = 10000</code></pre>
             });
         });
     </script>
+<?php include 'footer.php'; ?>
 </body>
 </html>

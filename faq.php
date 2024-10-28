@@ -200,6 +200,9 @@ session_start();
         }
     </style>
 </head>
+<header>
+<?php include 'header.php'; ?>
+</header>
 <body>
     <div class="container">
         <div class="header">
@@ -655,5 +658,6 @@ session_start();
     </div>
 
     <?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
 </body>
 </html>
