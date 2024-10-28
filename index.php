@@ -293,6 +293,9 @@ try {
         }
     </style>
 </head>
+<header>
+<?php include 'header.php'; ?>
+</header>
 <body>
     <div class="main-container">
         <div class="content-wrapper">

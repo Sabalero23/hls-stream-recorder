@@ -319,6 +319,9 @@ try {
         }
     </style>
 </head>
+<header>
+<?php include 'header.php'; ?>
+</header>
 <body>
     <!-- Barra de progreso de subida -->
     <div class="upload-progress" style="display: none;">
@@ -1068,5 +1071,7 @@ try {
             return `${size.toFixed(2)} ${units[unitIndex]}`;
         }
     </script>
+<br>
+<?php include 'footer.php'; ?>
 </body>
 </html>
